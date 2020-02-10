@@ -14,12 +14,13 @@
 @import 'base/typography';
 
 // layout
-@import 'layout/navbar';
 @import 'layout/header';
 @import 'layout/main';
-
+@import 'layout/mediaqueries';
 
 // components
+@import 'components/navbar';
+@import 'components/grid';
 @import 'components/buttons';
 
 // pages

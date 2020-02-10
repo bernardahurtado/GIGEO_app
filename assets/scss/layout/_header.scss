@@ -1,5 +1,19 @@
 // Header layout
 
+/* Navbar */
+
+
+.navbar-nav .nav-link {
+    color: $eerie-black;
+}
+
+.navbar-brand {
+    width: 150px;
+}
+
+.logo {
+    width: 57%;
+}
 
 /* Header */
 .header__container {
@@ -40,3 +54,33 @@
 }
 
 
+/* Desktop */ 
+
+@media (min-width: 1199.98px) { 
+
+    /* Navbar */
+    .navbar__container {
+        margin-left: 30px;   
+        
+    }
+
+
+    /* Header */
+
+    .header__container{
+        margin-left: 53px;
+        max-width: 92%; 
+    }
+    .header__img {
+        height: 290px;
+    }
+
+    .header__hr {
+        margin-top: 0;
+    }
+
+    .header__button {
+        display: block;
+        justify-content: flex-end;;
+    }
+ }

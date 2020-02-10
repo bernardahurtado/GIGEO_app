@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Google Fonts Roboto/Playfair-display-->
-
+    <!--Google Fonts Roboto-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
     <!--Font Awesome 5.6.3 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <!--Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -14,12 +15,113 @@
 </head>
 
 <body>
-    <!--Navbar-->
-    <nav></nav>
+    <!--Navbar-->    
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
+        <div class="container navbar__container">
+         <a class="navbar-brand" href="#"><img class="logo" src="assets/img/gigeo-art-logo.png" alt="GIGEO"></a>
+         <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><i class="fas fa-search"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia"><i class="fas fa-video"></i></a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="#trabajos">Blog</a>
+              </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#horas">Horas</a>
+             </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto"><i class="fas fa-bars"></i></a>
+              </li>
+           </ul>
+          </div>
+        </div>
+      </nav>
+
     <!--Header-->
-    <header></header>
+    <header class="header">
+        <img class="header__img img-fluid" src="assets/img/image-banner.png" alt="banner">
+
+        <div class="container header__container">
+            <div class="d-flex flex-row justify-content-start header__flex">
+                <div class="order-1">
+                    <img class="col__img" src="assets/img/profile-image.png" alt="profile-image">
+                </div>
+                <div class="order-2 col__2">                    
+                    <h1>Yuki Mukami</h2>
+                    <p>30.000 seguidores</p>
+                </div>
+                
+                <div class="ml-auto order-3 header__button">
+                    <button type="button" class="btn btn-primary bg-info">Mensaje</button>
+                    <button type="button" class="btn btn-primary bg-danger">Seguir</button>
+                </div>
+            </div>
+        </div>      
+        <hr class="header__hr">     
+    </header>
+
     <!--Main-->
-    <main></main>
+    <section class="main__title">
+        <h1>Videos populares</h1>
+    </section>
+    <main class="main__container"> 
+
+        <section class="main__video">
+          <img class="main__img" src="assets/img/image-1.png" alt="image-1">
+          <h2>Despúes de la vela - Yuki Mukami</h2>
+          <p>16k vistas - 1 semana atrás</p>
+        </section>
+
+        <section class="main__video">
+          <img class="main__img" src="assets/img/image-2.png" alt="image-2">
+          <h2>Far Away - Yuki Mukami</h2>
+          <p>100k vistas - 1mes atrás</p>
+        </section>
+
+        <section class="main__video">
+          <img class="main__img" src="assets/img/image-3.png" alt="image-3">
+          <h2>City - Yuki Mukami</h2>
+          <p>20k vistas - 1 mes atrás</p>
+        </section>
+
+        <section class="main__video">
+          <img class="main__img" src="assets/img/image-4.png" alt="image-4">
+          <h2>A Yuki Tale - Tuki Mukami</h2>
+          <p>1m vistas - 1 año atrás</p>
+        </section>
+
+        <section class="main__video">
+          <img class="main__img" src="assets/img/image-5.png" alt="image-5">
+          <h2>Mapocho</h2>
+          <p>100k vistas - 1 mes atrás</p>
+        </section>
+
+        <section class="main__video">
+          <img class="main__img" src="assets/img/image-6.png" alt="image-6">
+          <h2>Lucky Days - Yuki Mukami</h2>
+          <p>40k vistas - 3 meses atrás</p>
+        </section>
+
+        <section class="main__video">
+          <img class="main__img" src="assets/img/image-7.png" alt="image-7">
+          <h2>30 days in My House</h2>
+          <p>10k vistas - 4 meses atrás</p>
+        </section>
+
+        <section class="main__video">
+          <img class="main__img" src="assets/img/image-8.png" alt="image-8">
+          <h2>Santiago - Yuki Mukami</h2>
+          <p>40k vistas - 3 meses atrás</p>
+        </section>
+        
+    </main>
 
 
 

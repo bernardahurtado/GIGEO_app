@@ -1,0 +1,27 @@
+// style.scss # Manifest File
+
+// vendors
+@import 'vendors/node_modules/bootstrap/scss/bootstrap.scss';
+
+// abstracts
+
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+
+// base
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typography';
+
+// layout
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/main';
+
+
+// components
+@import 'components/buttons';
+
+// pages
+
+// themes

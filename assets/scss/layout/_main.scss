@@ -1,1 +1,24 @@
 // Main
+
+.main__container {
+    display: flex;
+    flex-direction: column;     
+    justify-content: space-around;
+
+    .main__video {         
+        height: 250px;
+        margin: 20px;
+        flex-grow: 1;
+
+        .main__img {
+            width:  100%;
+            height: auto;
+        }
+    }
+}
+
+.main__title {    
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

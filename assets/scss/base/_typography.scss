@@ -1,0 +1,29 @@
+/* Base Typography*/
+
+h1 {
+    font-family: $space-mono ;
+    font-weight: $bold;
+    font-size: $x-large;
+    color: $eerie-black;
+}
+
+h2 {
+    font-family: $space-mono ;
+    font-weight: $bold;
+    font-size: $large;
+    color: $eerie-black;
+}
+
+h4 {
+    font-family: $space-mono ;
+    font-weight: $bold;
+    font-size: $small;
+    color: $eerie-black; 
+}
+
+p {
+    font-family: $space-mono ;
+    font-weight: $regular;
+    font-size: $small; 
+    color: $eerie-black; 
+}
